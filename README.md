@@ -3,4 +3,8 @@ This script is a Denial of Service script, it was made for educational purposes 
 # Installation
 git clone https://github.com/Cahzoh/czDenial.git
 
+$ cd czDenial
+
+$ cd czDenialpy
+
 $ python3 czDenialpy.py
