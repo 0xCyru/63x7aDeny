@@ -7,8 +7,6 @@ import os
 import colorama
 from colorama import Fore,Back, Style
 print(Fore.MAGENTA)
-print(Back.BLACK)
-
 
 print(r""" _______  _______ 
 (  ____ \/ ___   )
