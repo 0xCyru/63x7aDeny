@@ -3,8 +3,6 @@ This script is a Denial of Service script, it was made for educational purposes 
 # Installation
 git clone https://github.com/63x7a/63x7aDeny.git
 
-$ cd czDenial
+$ cd 64x7aDeny
 
-$ cd czDenialpy
-
-$ python3 czDenialpy.py
+$ python3 main.py
