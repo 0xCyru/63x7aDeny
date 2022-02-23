@@ -18,11 +18,11 @@ $$$            c$$"     $$$$$$c    $$      $$$
 print(Fore.RED)
 print("\n****************************************************************")
 print(Fore.BLACK)
-print("\n* Socials                                                      *")
+print("\n* lol                                                    *")
 print(Fore.LIGHTYELLOW_EX)
-print("\n* https://www.twitter.com/0xCyru                               *")
+print("\n*  lol                       *")
 print(Fore.CYAN)
-print("\n* https://www.github.com/0xCyru                                *")
+print("\n*   lol                            *")
 print(Fore.CYAN)
 print("\n****************************************************************")
 print(Fore.LIGHTMAGENTA_EX)
@@ -49,7 +49,7 @@ elif option == '2':
 """)
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1024)
-print("Cyru - Denial of Service Tool")
+print("Denial of Service Tool")
 
 print('\n')
 
