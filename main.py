@@ -8,12 +8,7 @@ import colorama
 from colorama import Fore,Back, Style
 print(Fore.MAGENTA)
 
-print(r"""  .,-:::::.-:.     ::-.:::::::..    ...    :::
-,;;;'````' ';;.   ;;;;';;;;``;;;;   ;;     ;;;
-[[[          '[[,[[['   [[[,/[[['  [['     [[[
-$$$            c$$"     $$$$$$c    $$      $$$
-`88bo,__,o,  ,8P"`      888b "88bo,88    .d888
-  "YUMMMMMP"mM"         MMMM   "W"  "YmmMMMM""
+print(r"""ascii here ig
 """)
 print(Fore.RED)
 print("\n****************************************************************")
